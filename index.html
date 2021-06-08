@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard using HTML, CSS AND JAVASCRIPT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+</head>
+</head>
+<body>
+    <!-- Left fixed menu -->
+    <div class="container dashboard">
+        <div class="dashboard-menu">
+            <a href="index.html" class="logo"><i class="fab fa-cuttlefish"></i> CodingLab</a>
+            <ul class="menu-nav desktop">
+                <li><a href=""><i class="fas fa-columns"></i> Dashboard</a></li>
+                <li><a href=""><i class="fas fa-shopping-bag"></i> Product</a></li>
+                <li><a href=""><i class="fas fa-clipboard-list"></i> Order list</a></li>
+                <li><a href=""><i class="fas fa-chart-pie"></i> Analytics</a></li>
+                <li><a href=""><i class="fas fa-coins"></i> Stock</a></li>
+                <li><a href=""><i class="fas fa-calculator"></i> Total order</a></li>
+                <li><a href=""><i class="fas fa-user-alt"></i> Team</a></li>
+                <li><a href=""><i class="fas fa-comment-alt"></i> Messages</a></li>
+                <li><a href=""><i class="fas fa-heart"></i> Favorites</a></li>
+                <li><a href=""><i class="fas fa-cog"></i>Settings</a></li>
+            </ul>
+            <div class="log-bar desktop">
+                <a href="#"><i class="fas fa-file-export"></i> Log out</a>
+            </div>
+        </div>
+        <!-- Dashboard area -->
+        <div class="dashboard-table">
+            <div class="dashboard-table-head">
+                <div class="dashboard-nav">
+                    <i class="fas fa-bars"></i>
+                    <h1 class="desktop">Dashboard</h1>
+                </div>
+                <div class="search-box desktop">
+                    <input type="text" placeholder="search..">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="dashboard-user">
+                    <i class="fas fa-user"></i>
+                    <h4>codinglab manager</h4>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+            </div>
+
+            <!-- dashboard data boxes -->
+            <div class="dashboard-data-boxes">
+                <div class="data-box">
+                    <div class="data-box-grid">
+                        <h4>Total order</h4>
+                        <h1>40,876</h1>
+                        <p><span><i class="fas fa-arrow-alt-circle-up"></i></span>
+                            up from yesterday
+                        </p>
+                    </div>
+                    <div class="data-box-basket">
+                        <i class="fas fa-shopping-basket"></i>
+                    </div>
+                </div>
+
+                <div class="data-box">
+                    <div class="data-box-grid">
+                        <h4>Total order</h4>
+                        <h1>38,876</h1>
+                        <p><span><i class="fas fa-arrow-alt-circle-up"></i></span>
+                            up from yesterday
+                        </p>
+                    </div>
+                    <div class="data-box-basket">
+                        <i class="fas fa-shopping-basket"></i>
+                    </div>
+                </div>
+
+                <div class="data-box">
+                    <div class="data-box-grid">
+                        <h4>Total order</h4>
+                        <h1>12,876</h1>
+                        <p><span><i class="fas fa-arrow-alt-circle-up"></i></span>
+                            up from yesterday
+                        </p>
+                    </div>
+                    <div class="data-box-basket">
+                        <i class="fas fa-shopping-basket"></i>
+                    </div>
+                </div>
+
+                <div class="data-box">
+                    <div class="data-box-grid">
+                        <h4>Total order</h4>
+                        <h1>11,076</h1>
+                        <p><span><i class="fas fa-arrow-alt-circle-down"></i></span>
+                            down from today
+                        </p>
+                    </div>
+                    <div class="data-box-basket">
+                        <i class="fas fa-shopping-basket"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- dashboard twin showcase-->
+            <div class="dashboard-twin-showcase">
+                <div class="sales-table">
+                    <h1>Recent Sales</h1>
+
+                    <table>
+                        <!-- table row for table head -->
+                        <tr>
+                            <th>Date</th>
+                            <th>Customers</th>
+                            <th>Sales</th>
+                            <th>Total</th>
+                        </tr>
+
+                        <!-- table row1 for table cell1 -->
+                        <tr>
+                            <td>21 May 2021</td>
+                            <td>Olayinka Dele</td>
+                            <td>Delivered</td>
+                            <td>$207.00</td>
+                        </tr>
+
+                        <!-- table row2 for table cell2 -->
+                        <tr>
+                            <td>21 May 2021</td>
+                            <td>Oyema Dele</td>
+                            <td>Pending</td>
+                            <td>$507.00</td>
+                        </tr>
+
+                        <tr>
+                            <td>21 May 2021</td>
+                            <td>Olayinka Dele</td>
+                            <td>Delivered</td>
+                            <td>$207.00</td>
+                        </tr>
+
+                        <!-- table row2 for table cell2 -->
+                        <tr>
+                            <td>21 May 2021</td>
+                            <td>Oyema Dele</td>
+                            <td>Pending</td>
+                            <td>$507.00</td>
+                        </tr>
+
+                        <tr>
+                            <td>21 May 2021</td>
+                            <td>Olayinka Dele</td>
+                            <td>Delivered</td>
+                            <td>$207.00</td>
+                        </tr>
+
+                        <!-- table row2 for table cell2 -->
+                        <tr>
+                            <td>21 May 2021</td>
+                            <td>Oyema Dele</td>
+                            <td>Pending</td>
+                            <td>$507.00</td>
+                        </tr>
+
+                        <tr>
+                            <td>21 May 2021</td>
+                            <td>Olayinka Dele</td>
+                            <td>Delivered</td>
+                            <td>$207.00</td>
+                        </tr>
+
+                        <!-- table row2 for table cell2 -->
+                        <tr>
+                            <td>21 May 2021</td>
+                            <td>Oyema Dele</td>
+                            <td>Pending</td>
+                            <td>$507.00</td>
+                        </tr>
+
+                        <!-- empty the first 3 table cell
+                        leaving the fourth to show all for 
+                        total -->
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="style-cell">see all</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="product-table">
+                    <h1>Top Selling Products</h1>
+                    <table>
+                        <!-- table rows for table cells -->
+                        <tr>
+                            <td>
+                                <span>
+                                    <i class="fas fa-blender"></i>
+                                    <p>Acute blender</p>
+                                </span>
+                            </td>
+                            <td>$207.00</td>
+                        </tr>
+
+                        <!-- table rows for table cells -->
+                        <tr>
+                            <td>
+                                <span>
+                                    <i class="fas fa-biking"></i>
+                                    <p>Machor Bikes</p>
+                                </span>
+                            </td>
+                            <td>$207.00</td>
+                        </tr>
+
+                        <!-- table rows for table cells -->
+                        <tr>
+                            <td>
+                                <span>
+                                    <i class="fas fa-basketball-ball"></i>
+                                    <p>Basket ball</p>
+                                </span>
+                            </td>
+                            <td>$207.00</td>
+                        </tr>
+
+                        <!-- table rows for table cells -->
+                        <tr>
+                            <td>
+                                <span>
+                                    <i class="fas fa-car"></i>
+                                    <p>Acura sport</p>
+                                </span>
+                            </td>
+                            <td>$207.00</td>
+                        </tr>
+
+                        <!-- table rows for table cells -->
+                        <tr>
+                            <td>
+                                <span>
+                                    <i class="fas fa-basketball-ball"></i>
+                                    <p>Basket ball</p>
+                                </span>
+                            </td>
+                            <td>$207.00</td>
+                        </tr>
+
+                        <!-- table rows for table cells -->
+                        <tr>
+                            <td>
+                                <span>
+                                    <i class="fas fa-car"></i>
+                                    <p>Acura sport</p>
+                                </span>
+                            </td>
+                            <td>$207.00</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+        </div>
+        
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
